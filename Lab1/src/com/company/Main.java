@@ -9,16 +9,16 @@ public class Main {
 
         int randomNumber = ran.nextInt(100);
 
-            if (randomNumber % 2 == 0) {
+        if (randomNumber % 2 == 0) {
 
-                System.out.println(randomNumber+ " is an even number");
+            System.out.println(randomNumber+ " is an even number");
 
-            }
-            else {
+        }
+        else {
 
-                System.out.println(randomNumber+ " is an odd number");
+            System.out.println(randomNumber+ " is an odd number");
 
-            }
+        }
 
     }
 }
