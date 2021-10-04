@@ -16,8 +16,4 @@ public class Account {
         return totalTrade;
     }
 
-    public void addTrade (Trade t1) {
-        this.setTotalTrade(t1.getPrice() * t1.getQuantity());
-    }
-
 }

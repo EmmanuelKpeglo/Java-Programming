@@ -11,4 +11,12 @@ public class Trader {
 
     }
 
+    public double retrieveTotalTrade () {
+        return traderAccount.getTotalTrade();
+    }
+
+    public void addTrade (Trade t1) {
+        traderAccount.setTotalTrade(t1.getPrice() * t1.getQuantity());
+    }
+
 }
