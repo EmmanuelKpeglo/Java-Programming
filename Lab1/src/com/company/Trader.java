@@ -16,7 +16,7 @@ public class Trader {
     }
 
     public void addTrade (Trade t1) {
-        traderAccount.setTotalTrade(t1.getPrice() * t1.getQuantity());
+        this.traderAccount.setTotalTrade(t1.getPrice() * t1.getQuantity());
     }
 
 }
