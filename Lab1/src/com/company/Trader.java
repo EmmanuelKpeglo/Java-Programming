@@ -3,12 +3,14 @@ package com.company;
 public class Trader {
 
     private String name;
-    public Account traderAccount;
+    private Account traderAccount;
 
-    public Trader(String name) {
-        this.traderAccount = new Account();
+    public Trader(String name, Account traderAccount) {
         this.name = name;
+        this.traderAccount = traderAccount;
+    }
 
+    public Trader(String a1) {
     }
 
     public double retrieveTotalTrade () {

@@ -11,7 +11,7 @@ public class Trade {
         this.ID = ID;
         this.symbol = symbol;
         this.quantity = quantity;
-        this.setPrice(price);
+        this.price = price;
     }
 
     public Trade(String ID, String symbol, int quantity) {
