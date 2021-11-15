@@ -1,6 +1,6 @@
 package com.company;
 
-public class Trade {
+public abstract class Trade {
 
     private String ID;
     private String symbol;
@@ -41,6 +41,8 @@ public class Trade {
     public int getQuantity() {
         return quantity;
     }
+
+    public abstract double calcDividend();
 
     @Override
     public String toString() {
